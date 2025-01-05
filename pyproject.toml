@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Loïc Rentien <loic.rentien@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.41.1"
+pandas = "^2.2.3"
+plotly = "^5.24.1"
+langchain = "^0.3.14"
+langgraph = "^0.2.60"
+langchain-openai = "^0.2.14"
+langchain-core = "^0.3.29"
+scikit-learn = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
