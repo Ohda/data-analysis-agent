@@ -45,7 +45,8 @@ poetry install
 1. Activez l'environnement virtuel et lancez l'application :
 ```bash
 poetry shell
-python app.py
+export OPENAI_API_KEY=sk-proj...
+python streamlit run app.py --server.maxUploadSize 2000
 ```
 
 2. Accédez à l'interface via votre navigateur web à l'adresse indiquée.
